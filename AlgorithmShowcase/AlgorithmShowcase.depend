@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1583471275 source:c:\users\kevin\documents\c++ projects\algorithmshowcase\main.cpp
+	<iostream>
+	<string>
+	<windows.h>
+	<cstdlib>
+	<time.h>
+	<conio.h>
+	"TextPrompts.h"
+	"Algorithms.h"
+
+1583471171 source:c:\users\kevin\documents\c++ projects\algorithmshowcase\textprompts.cpp
+	"TextPrompts.h"
+
+1583465650 c:\users\kevin\documents\c++ projects\algorithmshowcase\textprompts.h
+	<iostream>
+	<string>
+
+1583466768 source:c:\users\kevin\documents\c++ projects\algorithmshowcase\findduplicate.cpp
+
+1583468982 source:c:\users\kevin\documents\c++ projects\algorithmshowcase\insertionsort.cpp
+	"Algorithms.h"
+
+1583468447 source:c:\users\kevin\documents\c++ projects\algorithmshowcase\selectionsort.cpp
+	"Algorithms.h"
+
+1583471118 source:c:\users\kevin\documents\c++ projects\algorithmshowcase\sieveofatkin.cpp
+	"Algorithms.h"
+	<iostream>
+
+1583468122 source:c:\users\kevin\documents\c++ projects\algorithmshowcase\bubblesort.cpp
+	"Algorithms.h"
+
+1583467031 c:\users\kevin\documents\c++ projects\algorithmshowcase\algorithms.h
+	<stdint.h>
+
+1583469520 source:c:\users\kevin\documents\c++ projects\algorithmshowcase\quicksort.cpp
+	"Algorithms.h"
+

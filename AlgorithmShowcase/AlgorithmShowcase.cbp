@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="AlgorithmShowcase" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/AlgorithmShowcase" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++14" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-O3" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/AlgorithmShowcase" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Algorithms.h" />
+		<Unit filename="BubbleSort.cpp" />
+		<Unit filename="FindDuplicate.cpp" />
+		<Unit filename="InsertionSort.cpp" />
+		<Unit filename="Quicksort.cpp" />
+		<Unit filename="SelectionSort.cpp" />
+		<Unit filename="SieveOfAtkin.cpp" />
+		<Unit filename="TextPrompts.cpp" />
+		<Unit filename="TextPrompts.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
